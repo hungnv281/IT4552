@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student registration</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h2 style="text-align: center"> student registration form </h2>
+    <form action="student.php">
+        <b>name:</b><input type="text" name="name" placeholder="enter your name">
+        <br>
+        <b>gender:</b> male <input type="radio" name="gender" value="Male">
+         - female <input type="radio" name="gender" value="Female">
+        <br>
+        <b>Class: </b><input type="text" name="class" placeholder="enter your class">
+        <br>
+        <b>University: </b> <input type="text" name="university" placeholder="enter your university">
+        <br>
+        <b>study access:</b>
+        <textarea name="process" cols="30" rows="10"></textarea>
+        <br>
+        <b>Hobbies</b>
+        <br>
+        <input type="checkbox" id="soccer" name="hobby[]" value="play soccer">
+        <label for="soccer">play soccer</label><br>
+        <input type="checkbox" id="badminton" name="hobby[]" value="play badminton">
+        <label for="badminton">play badminton</label><br>
+        <input type="checkbox" id="book" name="hobby[]" value="read book">
+        <label for="book"> read book</label>
+        <br>
+
+        <input type="submit" value="click to submit">
+        <input type="reset" value="erase and restart">
+    </form>
+</body>
+</html>
